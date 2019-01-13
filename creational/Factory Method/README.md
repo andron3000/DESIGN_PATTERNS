@@ -70,4 +70,6 @@ https://www.youtube.com/watch?v=HZ4ciLNWX4E
 
 Use the Factory Method pattern when:
 
-*  h.
+*  a class can't predict the class of objects it must create.
+
+*  a class wants its subclasses to specify the objects it creates.
