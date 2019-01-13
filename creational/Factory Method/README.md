@@ -2,6 +2,8 @@
 
 **Creational design pattern.**
 
+The Factory Method deals with the problem of creating objects without having to specify the exact class of the object that will be created. This is done by creating objects by calling a factory method.
+
 ### Example
 
 ``` Java
