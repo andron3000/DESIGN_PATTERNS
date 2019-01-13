@@ -2,6 +2,7 @@
 
 **Structural design pattern.**
 
+The intent of the proxy-pattern is to provide a placeholder for another object to control access to it. It introduces an additional level of indirection. There are several reasons why you would want to do this, hence there are several uses for this pattern.
 
 ### Example
 
