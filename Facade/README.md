@@ -1,9 +1,7 @@
 # Facade
 Structural design pattern. 
 
-It provides a simple interface that can be used to manipulate more complex logic behind the scenes.
-
-It also decouples the code that uses the system from the details of the subsystems, making it easier to modify the system later.
+The Facade Pattern provides a unified interface to a set of interfaces in as subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
 
 ### Example
 
