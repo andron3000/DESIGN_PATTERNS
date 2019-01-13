@@ -2,7 +2,12 @@
 
 **Structural design pattern.**
 
-The Facade Pattern provides a unified interface to a set of interfaces in as subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
+The Adapter Pattern describes how to convert an object into another object which a clients expects. This pattern mainly adapts one object to another one. Adapters allow objects to work together that couldn’t otherwise because of incompatible interfaces.
+
+Adapter allows to reuse existing coding without changing it, as the adapter ensures the conversion between the different interfaces.
+
+In comparison to a decorator pattern, **the Adapter Pattern only converts objects, while the Decorator Pattern adds new functionality to an existing object**. Therefore, the decorator does not change the existing interface.
+
 
 ### Example
 
