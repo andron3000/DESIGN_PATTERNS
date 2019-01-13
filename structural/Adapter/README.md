@@ -79,6 +79,8 @@ https://www.youtube.com/watch?v=ANlcc2p9kCUhttps://www.youtube.com/watch?v=uE0SG
 
 Use the Adapter pattern when:
 
+* there is an existing class, and its interface does not match the one you need.
+
 * you want to convert the interface of a class into another interface clients expect.
 
 * Adapter lets classes work together, that could not otherwise because of incompatible interfaces.
