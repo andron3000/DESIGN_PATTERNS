@@ -8,53 +8,10 @@ The Facade Pattern provides a unified interface to a set of interfaces in as sub
 
 ``` Java
 
-class CPU {
-    public void freeze() { ... }
-    public void jump(long position) { ... }
-    public void execute() { ... }
-}
-
-class HardDrive {
-    public byte[] read(long lba, int size) { ... }
-}
-
-class Memory {
-    public void load(long position, byte[] data) { ... }
-}
-
-/* Facade */
-
-class ComputerFacade {
-    private CPU processor;
-    private Memory ram;
-    private HardDrive hd;
-
-    public ComputerFacade() {
-        this.processor = new CPU();
-        this.ram = new Memory();
-        this.hd = new HardDrive();
-    }
-
-    public void start() {
-        processor.freeze();
-        ram.load(BOOT_ADDRESS, hd.read(BOOT_SECTOR, SECTOR_SIZE));
-        processor.jump(BOOT_ADDRESS);
-        processor.execute();
-    }
-}
-
-/* Client */
-
-class You {
-    public static void main(String[] args) {
-        ComputerFacade computer = new ComputerFacade();
-        computer.start();
-    }
-}
 ```
 ### Documentation
 
-https://www.youtube.com/watch?v=ANlcc2p9kCU
+https://www.youtube.com/watch?v=ANlcc2p9kCUhttps://www.youtube.com/watch?v=uE0SGhA1QbE
 
 ### Applicability
 
