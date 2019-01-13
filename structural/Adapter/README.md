@@ -77,10 +77,8 @@ https://www.youtube.com/watch?v=ANlcc2p9kCUhttps://www.youtube.com/watch?v=uE0SG
 
 ### Applicability
 
-Use the Facade pattern when:
+Use the Adapter pattern when:
 
-* you want to provide a simple interface to a complex subsystem. 
+* you want to convert the interface of a class into another interface clients expect.
 
-* there are many dependencies between clients and the implementation classes of an abstraction. Introduce a facade to decouple the subsystem from clients and other subsystems, thereby promoting subsystem independence and portability.
-
-* you want to layer your subsystems. Use a facade to define an entry point to each subsystem level.
+* Adapter lets classes work together, that could not otherwise because of incompatible interfaces.
