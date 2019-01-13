@@ -91,3 +91,7 @@ https://www.youtube.com/watch?v=V0ly-mMS4fg
 Use the Proxy pattern when:
 
 * there is a need for a more universal or sophisticated reference to an object than just a simple pointer.
+
+* objects need to be created on demand. 
+
+* access control for the original object is required.
