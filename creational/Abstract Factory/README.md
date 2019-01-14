@@ -193,5 +193,9 @@ https://www.youtube.com/watch?v=FYX9l5OQtJE
 
 Use the Abstract Factory pattern when:
 
-*  a.
+*   family of related product objects is designed to be used together, and you need to enforce this constraint.
+
+*   system should be configured with one of multiple families of products.
+
+*   system should be independent of how its products are created, composed and represented.
 
