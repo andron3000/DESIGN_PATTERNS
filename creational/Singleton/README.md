@@ -29,4 +29,4 @@ https://www.youtube.com/watch?v=u11nr3ifLd0
 
 Use the Singleton pattern when:
 
-*   there must be exactly one instance of a class, and it must be accessible to clients from a well-known access point.  
+*   there must be exactly one instance of a class, and it must be accessible to clients from a well-known access point. 
