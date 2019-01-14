@@ -1,0 +1,25 @@
+# Bridge
+
+**Structural design pattern.**
+
+The bridge pattern is a design pattern used in software engineering that is meant to "decouple an abstraction from its implementation
+so that the two can vary independently".
+
+### Example
+
+``` Java
+
+```
+### Documentation
+
+https://www.youtube.com/watch?v=moMF84Mp1tw
+
+### Applicability
+
+Use the Bridge pattern when:
+
+*  you want to avoid a permanent binding between an abstraction and its implementation. This might be the case, for example, when the implementation must be selected or switched at run-time.
+
+*  changes in the implementation of an abstraction should have no impact on clients; that is, their code should not have to be recompiled.
+
+*  both the abstractions and their implementations should be extensible by subclassing. In this case, the Bridge pattern lets you combine the different abstractions and implementations and extend them independently.
