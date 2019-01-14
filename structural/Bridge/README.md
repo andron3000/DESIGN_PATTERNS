@@ -2,7 +2,7 @@
 
 **Structural design pattern.**
 
-The bridge pattern is a design pattern used in software engineering that is meant to "decouple an abstraction from its implementation
+The Bridge Pattern is a design pattern used in software engineering that is meant to "decouple an abstraction from its implementation
 so that the two can vary independently".
 
 ### Example
